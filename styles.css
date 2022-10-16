@@ -1,5 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* global */
+@import "styles/body.css";
+@import "styles/font.css";
+@import "styles/reset.css";
+
+/* mixins */
+@import "styles/mixins/typography.css";
+
+/* blocks */
+@import "styles/blocks/intro.css";
+@import "styles/blocks/main.css";
