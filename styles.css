@@ -4,6 +4,7 @@
 @import "styles/reset.css";
 
 /* mixins */
+@import "styles/mixins/container.css";
 @import "styles/mixins/typography.css";
 @import "styles/mixins/visually-hidden.css";
 

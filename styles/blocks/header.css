@@ -1,4 +1,8 @@
 .header {
+    border-bottom: 0.4px solid black;
+}
+
+.header-topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +10,7 @@
     padding: 16px;
 }
 
-.header__name {
+.header-topbar__name {
     font-size: 32px;
     font-weight: 700;
 }
