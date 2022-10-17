@@ -10,10 +10,30 @@
     display: flex;
 }
 
+.socials-list__link:active > .socials-list__svg {
+    opacity: 0.6;
+}
+
+.socials-list__svg {
+    transition: 0.2s ease-in-out;
+}
+
 .socials-list__svg--github {
     fill: #333;
+    
 }
 
 .socials-list__svg--linkedin {
     fill: #0E76A8;
+    
+}
+
+@media (min-width: 1200px) {
+    .socials-list__link:hover:not(:active) > .socials-list__svg--linkedin {
+        fill: #3E91C5;
+    }
+
+    .socials-list__link:hover:not(:active) > .socials-list__svg--github {
+        fill: #575757;
+    }
 }
