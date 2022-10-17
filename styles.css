@@ -7,5 +7,7 @@
 @import "styles/mixins/typography.css";
 
 /* blocks */
+@import "styles/blocks/header.css";
 @import "styles/blocks/intro.css";
 @import "styles/blocks/main.css";
+@import "styles/blocks/socials-list.css";

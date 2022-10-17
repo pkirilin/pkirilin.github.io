@@ -1,0 +1,19 @@
+.socials-list {
+    display: flex;
+}
+
+.socials-list__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.socials-list__link {
+    display: flex;
+}
+
+.socials-list__svg--github {
+    fill: #333;
+}
+
+.socials-list__svg--linkedin {
+    fill: #0E76A8;
+}
