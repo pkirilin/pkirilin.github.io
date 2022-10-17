@@ -5,6 +5,7 @@
 
 /* mixins */
 @import "styles/mixins/typography.css";
+@import "styles/mixins/visually-hidden.css";
 
 /* blocks */
 @import "styles/blocks/header.css";
