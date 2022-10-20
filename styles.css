@@ -1,17 +1,17 @@
-@import "styles/variables.css";
+@import 'styles/variables.css';
 
 /* global */
-@import "styles/body.css";
-@import "styles/font.css";
-@import "styles/reset.css";
+@import 'styles/body.css';
+@import 'styles/font.css';
+@import 'styles/reset.css';
 
 /* mixins */
-@import "styles/mixins/container.css";
-@import "styles/mixins/typography.css";
-@import "styles/mixins/visually-hidden.css";
+@import 'styles/mixins/container.css';
+@import 'styles/mixins/typography.css';
+@import 'styles/mixins/visually-hidden.css';
 
 /* blocks */
-@import "styles/blocks/header.css";
-@import "styles/blocks/intro.css";
-@import "styles/blocks/main.css";
-@import "styles/blocks/socials-list.css";
+@import 'styles/blocks/header.css';
+@import 'styles/blocks/intro.css';
+@import 'styles/blocks/main.css';
+@import 'styles/blocks/socials-list.css';

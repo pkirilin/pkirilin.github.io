@@ -1,39 +1,37 @@
 .socials-list {
-    display: flex;
+  display: flex;
 }
 
 .socials-list__item:not(:last-child) {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .socials-list__link {
-    display: flex;
+  display: flex;
 }
 
 .socials-list__link:active > .socials-list__svg {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .socials-list__svg {
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .socials-list__svg--github {
-    fill: #333;
-    
+  fill: #333;
 }
 
 .socials-list__svg--linkedin {
-    fill: #0E76A8;
-    
+  fill: #0e76a8;
 }
 
 @media (min-width: 1200px) {
-    .socials-list__link:hover:not(:active) > .socials-list__svg--linkedin {
-        fill: #3E91C5;
-    }
+  .socials-list__link:hover:not(:active) > .socials-list__svg--linkedin {
+    fill: #3e91c5;
+  }
 
-    .socials-list__link:hover:not(:active) > .socials-list__svg--github {
-        fill: #575757;
-    }
+  .socials-list__link:hover:not(:active) > .socials-list__svg--github {
+    fill: #575757;
+  }
 }
