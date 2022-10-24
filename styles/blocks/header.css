@@ -1,11 +1,13 @@
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
   padding: 16px;
   height: 64px;
+  background-color: var(--color-bg);
 }
 
 .header::after {
@@ -21,6 +23,10 @@
 .header__name {
   font-size: 30px;
   font-weight: 700;
+  max-width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (min-width: 1200px) {
