@@ -20,7 +20,6 @@
   --color-primary-200: #c7d2fe;
   --color-primary-100: #e0e7ff;
 
-  --transition: 0.2s;
-  --opacity-active: 0.3;
+  --transition: all 0.2s ease-in-out;
   --line-height-content: 1.5;
 }
