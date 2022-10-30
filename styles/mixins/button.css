@@ -9,6 +9,11 @@
   font-weight: 700;
 }
 
+.button__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .button_variant_primary {
   color: var(--color-primary-100);
   background-color: var(--color-primary-500);
