@@ -9,6 +9,10 @@
   font-weight: 700;
 }
 
+.button:focus:not(:active) {
+  box-shadow: 0px 5px 10px 2px var(--color-gray-300);
+}
+
 .button__text {
   overflow: hidden;
   text-overflow: ellipsis;
