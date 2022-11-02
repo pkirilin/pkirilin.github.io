@@ -1,0 +1,28 @@
+.about__actions {
+  padding: 8px 0px;
+}
+
+.about__link:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .about__actions {
+    display: flex;
+  }
+
+  .about__link {
+    width: 20%;
+  }
+
+  .about__link:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about__link {
+    width: 15%;
+  }
+}

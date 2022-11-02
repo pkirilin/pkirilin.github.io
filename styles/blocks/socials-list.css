@@ -14,12 +14,12 @@
 }
 
 .socials-list__link:active > .socials-list__svg {
-  opacity: var(--opacity-active);
+  fill: var(--color-primary-400);
 }
 
 .socials-list__svg {
   fill: var(--color-primary-100);
-  transition: var(--transition) ease-in-out;
+  transition: var(--transition);
 }
 
 @media (min-width: 1200px) {
