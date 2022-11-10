@@ -1,0 +1,23 @@
+.skills__keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills__keywords-item {
+  font-size: 14px;
+  padding: 8px;
+  color: var(--color-primary-500);
+  font-weight: 700;
+  background-color: var(--color-primary-100);
+  border-radius: var(--border-radius);
+}
+
+@media (min-width: 768px) {
+  .skills__keywords-item {
+    font-size: inherit;
+    padding: 8px 16px;
+  }
+}
