@@ -8,6 +8,7 @@
 /* mixins */
 @import 'styles/mixins/button.css';
 @import 'styles/mixins/container.css';
+@import 'styles/mixins/link.css';
 @import 'styles/mixins/list.css';
 @import 'styles/mixins/typography.css';
 @import 'styles/mixins/visually-hidden.css';
