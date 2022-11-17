@@ -1,0 +1,21 @@
+.accomplishments-list__item {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.accomplishments-list__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.accomplishments-list__item::before {
+  content: '';
+  background-image: url('/assets/right-arrow.svg');
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}

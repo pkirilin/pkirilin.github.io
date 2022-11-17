@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .position__company {
@@ -17,7 +17,7 @@
 .position__company-description {
   font-size: 14px;
   font-style: italic;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .position__role {
@@ -26,8 +26,4 @@
 
 .position__period {
   font-size: 14px;
-}
-
-.position__accomplishment:not(:last-child) {
-  margin-bottom: 24px;
 }
