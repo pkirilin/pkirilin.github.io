@@ -19,3 +19,7 @@
   align-items: center;
   flex-shrink: 0;
 }
+
+.accomplishments-list__text {
+  word-break: break-word;
+}

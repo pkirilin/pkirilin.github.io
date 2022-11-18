@@ -2,28 +2,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
   margin-bottom: 16px;
 }
 
 .position__company {
   font-size: 20px;
   font-weight: 700;
+  word-break: break-word;
 }
 
 .position__location {
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .position__company-description {
   font-size: 14px;
   font-style: italic;
   margin-bottom: 16px;
+  word-break: break-word;
 }
 
 .position__role {
   font-weight: 700;
+  word-break: break-word;
 }
 
 .position__period {
   font-size: 14px;
+  white-space: nowrap;
 }
