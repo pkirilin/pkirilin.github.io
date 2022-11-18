@@ -1,8 +1,7 @@
 .h2 {
-  margin: 36px 0 24px;
+  margin: 0 0 24px;
 }
 
 .p {
-  margin: 24px 0 24px;
-  line-height: var(--line-height-content);
+  margin: 0;
 }

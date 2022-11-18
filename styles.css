@@ -8,13 +8,19 @@
 /* mixins */
 @import 'styles/mixins/button.css';
 @import 'styles/mixins/container.css';
+@import 'styles/mixins/link.css';
+@import 'styles/mixins/list.css';
 @import 'styles/mixins/typography.css';
 @import 'styles/mixins/visually-hidden.css';
 
 /* blocks */
 @import 'styles/blocks/about.css';
+@import 'styles/blocks/accomplishments-list.css';
 @import 'styles/blocks/header.css';
 @import 'styles/blocks/introduction.css';
+@import 'styles/blocks/keywords-list.css';
 @import 'styles/blocks/main.css';
-@import 'styles/blocks/skills.css';
+@import 'styles/blocks/position.css';
+@import 'styles/blocks/positions-list.css';
+@import 'styles/blocks/section.css';
 @import 'styles/blocks/socials-list.css';

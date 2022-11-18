@@ -13,7 +13,7 @@
     <header class="header">
       <div class="container header__container">
         <span class="header__name">Pavel Kirilin</span>
-        <ul class="socials-list">
+        <ul class="list socials-list">
           <li class="socials-list__item">
             <a class="socials-list__link" href="https://github.com/pkirilin" target="_blank">
               <svg
@@ -62,13 +62,13 @@
     </header>
     <main class="container main">
       <h1 class="h1 visually-hidden">Pavel Kirilin - Software Developer</h1>
-      <section class="introduction">
+      <section class="section introduction">
         <h2 class="h2 introduction__title visually-hidden">Introduction</h2>
         <strong class="introduction__text"
           >Hi, my name is Pavel. I am a full-stack software developer.
         </strong>
       </section>
-      <section class="about">
+      <section class="section about">
         <h2 class="h2 about__title">About</h2>
         <p class="p about__text">
           I started my career in 2018 as a .NET back-end developer. Later in 2019, I got interested
@@ -98,25 +98,135 @@
           </a>
         </div>
       </section>
-      <section class="skills">
+      <section class="section skills">
         <h2 class="h2 skills__title">Skills</h2>
-        <ul class="skills__keywords">
-          <li class="skills__keywords-item">C#</li>
-          <li class="skills__keywords-item">.NET 6</li>
-          <li class="skills__keywords-item">ASP.NET Core</li>
-          <li class="skills__keywords-item">EF Core</li>
-          <li class="skills__keywords-item">Docker</li>
-          <li class="skills__keywords-item">MySQL</li>
-          <li class="skills__keywords-item">PostgreSQL</li>
-          <li class="skills__keywords-item">HTML</li>
-          <li class="skills__keywords-item">CSS</li>
-          <li class="skills__keywords-item">JavaScript</li>
-          <li class="skills__keywords-item">TypeScript</li>
-          <li class="skills__keywords-item">React</li>
-          <li class="skills__keywords-item">Redux</li>
-          <li class="skills__keywords-item">Node.js</li>
-          <li class="skills__keywords-item">ExpressJS</li>
+        <ul class="list keywords-list">
+          <li class="keywords-list__item">C#</li>
+          <li class="keywords-list__item">.NET 6</li>
+          <li class="keywords-list__item">ASP.NET Core</li>
+          <li class="keywords-list__item">EF Core</li>
+          <li class="keywords-list__item">Docker</li>
+          <li class="keywords-list__item">MySQL</li>
+          <li class="keywords-list__item">PostgreSQL</li>
+          <li class="keywords-list__item">HTML</li>
+          <li class="keywords-list__item">CSS</li>
+          <li class="keywords-list__item">JavaScript</li>
+          <li class="keywords-list__item">TypeScript</li>
+          <li class="keywords-list__item">React</li>
+          <li class="keywords-list__item">Redux</li>
+          <li class="keywords-list__item">Node.js</li>
+          <li class="keywords-list__item">ExpressJS</li>
         </ul>
+      </section>
+      <section class="section experience">
+        <h2 class="h2 experience__title">Experience</h2>
+        <ol class="list positions-list">
+          <li class="positions-list__item">
+            <div class="position">
+              <div class="position__header">
+                <span class="position__company">Dodo Brands</span>
+                <span class="position__location">Moscow, Russia</span>
+              </div>
+              <p class="p position__company-description">
+                An international foodservice franchise, which has brands located in 16+ countries
+                around the world.
+                <a class="link" href="https://dodobrands.io" target="_blank">Learn more</a>
+              </p>
+              <div class="position__header">
+                <span class="position__role">Developer</span>
+                <span class="position__period">Jan 2021 - Present</span>
+              </div>
+              <ul class="list accomplishments-list">
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Expanded the company’s information system capabilities for integration with
+                    third-party services by designing, documenting and developing 6 public API
+                    endpoints for external developers.
+                  </span>
+                </li>
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Implemented MVP of Dodo IS Marketplace service with a functionality of viewing
+                    and managing all external integrations connected to the system solely in 3
+                    months.
+                  </span>
+                </li>
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Automated the gathering of the technical support team metrics from 2 third-party
+                    SaaS services by developing operational metrics and statistics dashboard for 2nd
+                    line team, which saved 2-3 days of manual work per week during the year.
+                  </span>
+                </li>
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Increased the efficiency and the SLA of the technical support team by 8% during
+                    the year by developing a support bot for automating the team’s daily operations.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="positions-list__item">
+            <div class="position">
+              <div class="position__header">
+                <span class="position__company">Super Brands</span>
+                <span class="position__location">Moscow, Russia</span>
+              </div>
+              <p class="p position__company-description">
+                A distributor of more than 12 world brands of clothing, footwear and accessories for
+                over 15 retailers in Russia.
+              </p>
+              <div class="position__header">
+                <span class="position__role">.NET developer</span>
+                <span class="position__period">Jul 2019 - Oct 2020</span>
+              </div>
+              <ul class="list accomplishments-list">
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Provided the technical support to the brand management team of 5-8 people and
+                    fixed several bugs based on their feedback.
+                  </span>
+                </li>
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Increased the performance of sending orders to the internal accounting system by
+                    changing the existing integration from SOAP to REST.
+                  </span>
+                </li>
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Improved the algorithms of import/export products in Excel format by making
+                    search and navigation in export file easier.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="positions-list__item">
+            <div class="position">
+              <div class="position__header">
+                <span class="position__company">Quorum</span>
+                <span class="position__location">Moscow, Russia</span>
+              </div>
+              <p class="p position__company-description">
+                An integrator with 20 years of history, provides IT solutions for over 40 financial
+                institutions in Russia.
+              </p>
+              <div class="position__header">
+                <span class="position__role">.NET developer</span>
+                <span class="position__period">Nov 2018 - Jun 2019</span>
+              </div>
+              <ul class="list accomplishments-list">
+                <li class="accomplishments-list__item">
+                  <span class="accomplishments-list__text">
+                    Developed the application for automating the banking loan pipeline.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ol>
       </section>
     </main>
   </body>
