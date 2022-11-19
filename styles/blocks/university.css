@@ -7,7 +7,15 @@
   margin-bottom: 4px;
 }
 
+.university__faculty {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--color-gray-500);
+  margin-bottom: 4px;
+}
+
 .university__period {
+  font-size: 14px;
   color: var(--color-gray-500);
   margin-bottom: 16px;
 }
