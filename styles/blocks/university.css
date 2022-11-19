@@ -1,0 +1,13 @@
+.university__name {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.university__specialty {
+  margin-bottom: 4px;
+}
+
+.university__period {
+  color: var(--color-gray-500);
+  margin-bottom: 16px;
+}
