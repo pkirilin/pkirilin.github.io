@@ -4,15 +4,7 @@
   margin-bottom: 4px;
 }
 
-.position__location {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: var(--color-gray-500);
-  margin-bottom: 4px;
-}
-
 .position__company-description {
-  font-size: 14px;
   font-style: italic;
   color: var(--color-gray-500);
   margin-bottom: 16px;
