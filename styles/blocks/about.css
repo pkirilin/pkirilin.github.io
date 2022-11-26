@@ -20,9 +20,3 @@
     margin-right: 16px;
   }
 }
-
-@media (min-width: 1200px) {
-  .about__link {
-    width: 15%;
-  }
-}
