@@ -22,6 +22,8 @@
 @import 'styles/blocks/main.css';
 @import 'styles/blocks/position.css';
 @import 'styles/blocks/positions-list.css';
+@import 'styles/blocks/project.css';
+@import 'styles/blocks/projects-list.css';
 @import 'styles/blocks/section.css';
 @import 'styles/blocks/socials-list.css';
 @import 'styles/blocks/university.css';
