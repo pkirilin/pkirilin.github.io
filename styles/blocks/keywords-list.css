@@ -16,7 +16,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 120px;
+  max-width: 150px;
 }
 
 .keywords-list__item_size_small,
