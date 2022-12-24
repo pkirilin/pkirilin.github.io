@@ -5,14 +5,22 @@
   border-radius: var(--border-radius);
 }
 
-.project__title {
+.project__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+.project__name {
   font-size: 20px;
   margin: 0 0 4px;
+  word-break: break-word;
 }
 
 .project__period {
   color: var(--color-gray-500);
-  margin-bottom: 16px;
 }
 
 .project__description {

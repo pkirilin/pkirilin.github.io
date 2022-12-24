@@ -1,0 +1,33 @@
+.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  transition: var(--transition);
+}
+
+.icon-button:active {
+  opacity: 0.5;
+}
+
+.icon-button__icon {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.icon-button_type_dodo {
+  background-color: #ffe0d6;
+}
+
+.icon-button__icon_type_dodo {
+  background-image: url('/images/dodo-brands-logo.png');
+}
+
+@media (min-width: 1200px) {
+  .icon-button:hover:not(:active) {
+    background-color: #ffc0ad;
+  }
+}
