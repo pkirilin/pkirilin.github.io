@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   display: flex;
-  padding: 16px;
+  padding: var(--space-container-xs);
   height: 48px;
   background-color: var(--color-primary-500);
 }
@@ -27,6 +27,6 @@
 
 @media (min-width: 768px) {
   .header {
-    padding: 16px 24px;
+    padding: var(--space-container-xs) var(--space-container-md);
   }
 }

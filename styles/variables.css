@@ -21,6 +21,9 @@
   --color-primary-200: #c7d2fe;
   --color-primary-100: #e0e7ff;
 
+  --space-container-xs: 16px;
+  --space-container-md: 24px;
+
   --border-radius: 4px;
   --transition: all 0.2s ease-in-out;
 }

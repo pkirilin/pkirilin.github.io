@@ -1,7 +1,11 @@
 .project {
+  --space-project-card: 24px;
+  --image-size-ratio-mobile: 1.425;
+  --image-size-ratio-tablet: 0.78;
+
   background-color: var(--color-white);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.12);
-  padding: 24px;
+  padding: var(--space-project-card);
   border-radius: var(--border-radius);
 }
 
@@ -9,8 +13,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 24px;
-  margin-bottom: 12px;
+  gap: var(--space-project-card);
+  margin-bottom: calc(var(--space-project-card) / 2);
 }
 
 .project__name {
@@ -26,18 +30,20 @@
 }
 
 .project__description {
-  margin-bottom: 24px;
+  margin-bottom: var(--space-project-card);
 }
 
 .project__image {
-  /* TODO: move to variables */
-  height: calc((100vw - 32px - 48px) * 1.425);
+  height: calc(
+    (100vw - 2 * var(--space-container-xs) - 2 * var(--space-project-card)) *
+      var(--image-size-ratio-mobile)
+  );
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   border-radius: var(--border-radius);
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
-  margin-bottom: 24px;
+  margin-bottom: var(--space-project-card);
 }
 
 .project__image_type_food-diary {
@@ -47,8 +53,10 @@
 
 @media (min-width: 480px) {
   .project__image {
-    /* TODO: move to variables */
-    height: calc((100vw - 32px - 48px) * 0.78);
+    height: calc(
+      (100vw - 2 * var(--space-container-xs) - 2 * var(--space-project-card)) *
+        var(--image-size-ratio-tablet)
+    );
   }
 
   .project__image_type_food-diary {
@@ -69,7 +77,7 @@
     width: 380px;
     height: 300px;
     margin-bottom: 0;
-    margin-right: 24px;
+    margin-right: var(--space-project-card);
   }
 
   .project__image_type_food-diary {
