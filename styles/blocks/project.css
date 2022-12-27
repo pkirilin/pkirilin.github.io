@@ -79,8 +79,4 @@
     margin-bottom: 0;
     margin-right: var(--space-project-card);
   }
-
-  .project__image_type_food-diary {
-    background-image: url('/images/food-diary.jpg');
-  }
 }
