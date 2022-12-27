@@ -1,3 +1,9 @@
 .main {
-  padding: 0 16px;
+  padding: 0 var(--space-container-xs);
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding: 0 var(--space-container-md);
+  }
 }
