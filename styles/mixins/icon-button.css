@@ -23,7 +23,7 @@
 }
 
 .icon-button__icon_type_dodo {
-  background-image: url('/images/dodo-brands-logo.png');
+  background-image: url('/images/dodo-brands-logo.svg');
 }
 
 .icon-button_type_github {
@@ -31,7 +31,7 @@
 }
 
 .icon-button__icon_type_github {
-  background-image: url('/images/github-icon.svg');
+  background-image: url('/images/github-logo.svg');
 }
 
 @media (min-width: 1200px) {
