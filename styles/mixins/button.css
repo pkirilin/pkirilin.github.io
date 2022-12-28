@@ -41,6 +41,10 @@
 }
 
 @media (min-width: 1200px) {
+  .button:hover:not(:active) {
+    cursor: pointer;
+  }
+
   .button_variant_primary:hover:not(:active) {
     background-color: var(--color-primary-900);
   }
