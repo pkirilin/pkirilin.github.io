@@ -1,4 +1,8 @@
-.about__link:not(:last-child) {
+.about__button {
+  width: 100%;
+}
+
+.about__button:not(:last-child) {
   margin-bottom: 16px;
 }
 
@@ -11,11 +15,11 @@
     display: flex;
   }
 
-  .about__link {
-    width: 20%;
+  .about__button {
+    width: 24%;
   }
 
-  .about__link:not(:last-child) {
+  .about__button:not(:last-child) {
     margin-bottom: 0;
     margin-right: 16px;
   }

@@ -7,6 +7,7 @@
   text-decoration: none;
   transition: var(--transition);
   font-weight: 700;
+  box-sizing: border-box;
 }
 
 .button:focus:not(:active) {

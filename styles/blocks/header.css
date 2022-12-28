@@ -3,8 +3,9 @@
   top: 0;
   display: flex;
   padding: var(--space-container-xs);
-  height: 48px;
+  height: var(--header-height);
   background-color: var(--color-primary-500);
+  box-sizing: border-box;
 }
 
 .header__container {
