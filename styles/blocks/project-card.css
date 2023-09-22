@@ -1,0 +1,31 @@
+.project-card {
+  --space-project-card: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card__image {
+  width: 100%;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-card__header {
+  font-size: 20px;
+  line-height: 32px;
+  word-break: break-word;
+}
+
+.project-card__content {
+  padding: var(--space-project-card);
+}
+
+.project-card__description {
+  margin-bottom: var(--space-project-card);
+}
+
+.project-card__keywords {
+  margin-bottom: 32px;
+}
