@@ -8,7 +8,6 @@
 /* mixins */
 @import 'styles/mixins/button.css';
 @import 'styles/mixins/container.css';
-@import 'styles/mixins/icon-button.css';
 @import 'styles/mixins/list.css';
 @import 'styles/mixins/typography.css';
 @import 'styles/mixins/visually-hidden.css';
@@ -18,7 +17,7 @@
 @import 'styles/blocks/header.css';
 @import 'styles/blocks/keywords-list.css';
 @import 'styles/blocks/main.css';
-@import 'styles/blocks/project.css';
+@import 'styles/blocks/project-card.css';
 @import 'styles/blocks/projects-list.css';
 @import 'styles/blocks/section.css';
 @import 'styles/blocks/socials-list.css';
