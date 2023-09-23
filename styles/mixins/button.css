@@ -26,6 +26,10 @@
   text-overflow: ellipsis;
 }
 
+.button__icon {
+  display: flex;
+}
+
 .button_variant_primary {
   color: var(--color-primary-100);
   background-color: var(--color-primary-500);
