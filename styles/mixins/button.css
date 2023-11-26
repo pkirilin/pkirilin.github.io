@@ -59,6 +59,14 @@
   fill: var(--color-primary-400);
 }
 
+.button_variant_outline .button__icon > svg {
+  fill: var(--color-primary-500);
+}
+
+.button_variant_outline:active .button__icon > svg {
+  fill: var(--color-primary-300);
+}
+
 @media (min-width: 1200px) {
   .button:hover:not(:active) {
     cursor: pointer;

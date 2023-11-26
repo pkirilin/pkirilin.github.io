@@ -29,3 +29,12 @@
 .project-card__keywords {
   margin-bottom: 32px;
 }
+
+.project-card__actions {
+  display: flex;
+  gap: 16px;
+}
+
+.project-card__action-button {
+  flex: 1;
+}
