@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.button:active {
+  opacity: 0.7;
+}
+
 .button:focus:not(:active) {
   box-shadow: 0px 5px 10px 2px var(--color-gray-300);
 }
@@ -41,30 +45,12 @@
   border: 1px solid var(--color-primary-500);
 }
 
-.button_variant_primary:active {
-  color: var(--color-primary-400);
-  background-color: var(--color-primary-700);
-}
-
-.button_variant_outline:active {
-  color: var(--color-primary-300);
-  background-color: var(--color-primary-100);
-}
-
 .button_variant_primary .button__icon > svg {
   fill: var(--color-primary-100);
 }
 
-.button_variant_primary:active .button__icon > svg {
-  fill: var(--color-primary-400);
-}
-
 .button_variant_outline .button__icon > svg {
   fill: var(--color-primary-500);
-}
-
-.button_variant_outline:active .button__icon > svg {
-  fill: var(--color-primary-300);
 }
 
 @media (min-width: 1200px) {

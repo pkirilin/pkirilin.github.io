@@ -8,10 +8,11 @@
 
 .socials-list__link {
   display: flex;
+  transition: var(--transition);
 }
 
-.socials-list__link:active > .socials-list__svg {
-  fill: var(--color-primary-400);
+.socials-list__link:active {
+  opacity: 0.3;
 }
 
 .socials-list__svg {
