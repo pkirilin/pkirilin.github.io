@@ -23,11 +23,11 @@
 }
 
 .project-card__description {
-  margin-bottom: var(--space-project-card);
+  margin-bottom: 24px;
 }
 
 .project-card__keywords {
-  margin-bottom: 32px;
+  margin-bottom: var(--space-project-card);
 }
 
 .project-card__actions {
