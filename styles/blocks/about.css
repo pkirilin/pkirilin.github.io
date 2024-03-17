@@ -8,6 +8,8 @@
 
 .about__text:not(:last-child) {
   margin-bottom: 24px;
+  font-size: 20px;
+  color: var(--color-gray-500);
 }
 
 @media (min-width: 768px) {
