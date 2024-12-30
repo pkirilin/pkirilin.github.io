@@ -25,8 +25,8 @@
       <h1 class="h1">Pavel Kirilin</h1>
       <section class="section about">
         <p class="p about__text">
-          👋 Hi, my name is Pavel. I am a full-stack software developer with 5+ years of experience.
-          My primary area of expertise is web application development with .NET and React. You can
+          👋 Hi, my name is Pavel. I am a full-stack software developer with 6+ years of experience.
+          My primary area of expertise is web application development with React and .NET. You can
           find me on the following social platforms:
         </p>
         <ul class="list socials-list">
@@ -83,18 +83,29 @@
         <ol class="list projects-list">
           <li class="projects-list__item">
             <article class="project-card">
-              <img class="project-card__image" src="/images/food-diary.jpg" alt="Food Diary App" />
+              <div class="project-card__image-container">
+                <img
+                  class="project-card__image"
+                  src="/images/food-diary-calories.png"
+                  alt="Screenshot of a food tracking app showing meals for October 19, 2023: breakfast with beef and spinach, second breakfast with milk and oats, lunch with bread and cheese. Total 2994 kcal."
+                />
+                <img
+                  class="project-card__image"
+                  src="/images/food-diary-weight.png"
+                  alt="A line
+                graph showing weight changes from 1 Oct to 31 Dec 2023, with data points: 75kg, 73kg, 71kg, 72kg, 70kg. A Log Weight button is visible."
+                />
+              </div>
               <div class="project-card__content">
                 <h3 class="h3 project-card__header">Food Diary</h3>
                 <ul class="list keywords-list project-card__keywords">
-                  <li class="keywords-list__item">.NET</li>
                   <li class="keywords-list__item">React</li>
-                  <li class="keywords-list__item">PostgreSQL</li>
                   <li class="keywords-list__item">Material UI</li>
+                  <li class="keywords-list__item">.NET</li>
+                  <li class="keywords-list__item">PostgreSQL</li>
                 </ul>
                 <p class="p project-card__description">
-                  A web application for tracking the amount of food you eat every day and counting
-                  the calories in it.
+                  A web application for tracking calories and weight
                 </p>
                 <div class="project-card__actions">
                   <a
